@@ -2,7 +2,9 @@
 
 <div align="center">
 
-  <h1><b>Math Magicians</b></h1>
+<img src="https://user-images.githubusercontent.com/88631022/223114827-0ee83d90-fe13-4493-a70f-553f743faafb.PNG" alt="myLogo" width="300" />
+
+  <h1><b>OOP-school-library</b></h1>
 
 </div>
 
@@ -28,20 +30,18 @@
 
 # 💻 Math Magicians <a name="about-project"></a>
 
-> **Math Magicians** is a Microverce React project. It is a website for all fans of mathematics. Using this website user can make simple calculations and also can read a random math-related quote.
+> **OOP-school-library** is a ruby app project which can help a librarian to record what books are in the library and who borrows them(with details).
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> I used React, Javascript and css to build this project.
+> I used Ruby to build this project.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li>React</li>
-    <li>CSS</li>
-    <li>JAVASCRIPT</li>
+    <li>Ruby</li>
   </ul>
 </details>
 
@@ -50,8 +50,8 @@
 > Some key feature of this project
 > Features
 
-- **User can calculate simple math equations**
-- **User can read random math quotes**
+- **TBD**
+- **TBD**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,59 +69,39 @@
 > To get a local copy, follow these simple example steps.
 > Clone this repository or download the Zip folder:
 
-### Prerequisites
-
-> In order to check the linters errors and also see the project in your local machine make sure you have installed the [nodejs](https://nodejs.org)
+### Prerequisite
 
 ### Setup
 
 > Clone this repository to your desired folder: cd [folder] to navigate and run the below comand to clone the project
 
 ```sh
-git clone https://github.com/raihan2bd/math-magicians.git
+git clone https://github.com/EddyShimwa/OOP-school-library.git
 ```
 
 ### Install
 
 Install this project with:
 
-download npm the packages
+download the gem packages
 
 ```sh
-npm install
+bundle install
 ```
 
 To download the dev dependency you have to type this command:
 
-```sh
-npm i --save-dev
-```
-
 ### Usage
-
-> To see the project in your local browser first of all, go to project file and navigate the directory on your terminal and type below command:
-
-```sh
-npm start
-```
-
-> After start the dev server a new tab will be open your browser.
-
-> To build this project you have to run the below command:
-
-```sh
-npm run build
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Abu Raihan**
+👤 **SHIMWA Pray Eddy**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/raihan2bd)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/raihan2bd)
+- GitHub: [EddyShimwa](https://github.com/EddyShimwa)
+- Twitter: [Eddy](https://twitter.com/eddy56388406)
+- LinkedIn: [Pray Eddy SHIMWA](https://www.linkedin.com/in/pray-eddy-shimwa/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,8 +109,13 @@ npm run build
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **I will add math calculation functionality**
+- [ ] **I will  use the "Decorator" design pattern**
+- [ ] **I will  set up associations.**
 - [ ] **I will add random math quotes**
+- [ ] **I will  add basic UI**
+- [ ] **I will add refactor your code**
+- [ ] **I will do data preservation**
+- [ ] **I will add some unit tests**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +123,7 @@ npm run build
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/EddyShimwa/OOP-school-library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,8 +135,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Without Microverse Help this project not compleated at all so thanks a lot Microverse for giving us this kind of opertunity.
-
+> Without Microverse Help this project not completed at all so thanks a lot Microverse for giving us this kind of opportunity.
+Gratitude goes to MICROVERSE organisation for this amazing opportunity
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
