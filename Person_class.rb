@@ -8,6 +8,8 @@ class Person
     @name = name
     @age = age
     @parent_permission = parent_permission
+
+    puts "My name is #{@name} and age is #{age}"
   end
 
   def can_use_services?
@@ -20,3 +22,7 @@ class Person
     @age >= 18
   end
 end
+
+
+rema = Person.new(age: 12, name: "Esmeralda wanjye", parent_permission: true)
+puts rema
