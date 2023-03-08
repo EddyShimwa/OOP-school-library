@@ -12,6 +12,7 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
+    super()
   end
 
   def can_use_services?
@@ -33,5 +34,5 @@ person = Person.new(age: 22, name: 'maximilianus')
 person.correct_name
 capitalizedperson = CapitalizeDecorator.new(person)
 capitalizedperson.correct_name
-capitalizedtrimmedperson = TrimmerDecorator.new(capitalizedPerson)
-capitalizedtrimmedperson.correct_name
+capitalizedtrimmedperson = TrimmerDecorator.new(capitalizedperson)
+puts capitalizedtrimmedperson.correct_name
