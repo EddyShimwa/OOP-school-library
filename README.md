@@ -78,6 +78,11 @@
 ```sh
 git clone https://github.com/EddyShimwa/OOP-school-library.git
 ```
+> and then run the app using the following command
+
+```sh
+ruby main.rb
+```
 
 ### Install
 
