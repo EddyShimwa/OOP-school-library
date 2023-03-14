@@ -131,22 +131,21 @@ class App
 
     colorize_outprint(36, 'Date: ')
     date = gets.chomp
-    Rental.new(date, @books[book_option], @people[person_option])
-
+    @rentals.push(Rental.new(date, @books[book_option], @people[person_option]))
     colorize_output(36, 'Rental created successfully')
     display_list
     continue
   end
 
   def list_rentals_of_person_id()
-      print 'Person ID: '
-      id = gets.chomp.to_i
+    print 'Person ID: '
+    id = gets.chomp.to_i
 
-      rentals = @rentals.filter { |rental| rental.person.id == id }
-      puts 'List of Rentals:'
-      rentals.each do |rental|
-        puts "Date: #{rental.date}, Book '#{rental.book.title}' by #{rental.book.author}"
-      end
+    rentals = @rentals.filter { |rental| rental.person.id == id }
+    puts 'List of Rentals:'
+    rentals.each do |rental|
+      puts "Date: #{rental.date}, Book '#{rental.book.title}' by #{rental.book.author}"
+    end
     display_list
     continue
   end
