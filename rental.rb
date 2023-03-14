@@ -5,7 +5,7 @@ class Rental
     @date = date
     @book = book
     @person = person
-    @person.rentals << self
+    @person.rentals = []
     @book.rentals << self
   end
 end
