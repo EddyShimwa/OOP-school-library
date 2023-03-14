@@ -19,7 +19,7 @@ class App
 
   def list_all_books
     if @books.empty?
-      colorize_output(31, 'Please insert books first!!')
+      colorize_output(23, 'Please insert books first!!')
     else
       @books.each do |book|
         puts "Title: #{book.title}, Author: #{book.author}"
@@ -60,8 +60,9 @@ class App
       when 'n' then parent_permission = false
       end
 
-      @people.push(Student.new(age, name, parent_permission))
-      colorize_output(36, 'Person Student Created successfully')
+      student = Student.new(age: age, name: name, parent_permission: parent_permission)
+      @people.push(student)
+      colorize_output(34, 'Person Student Created successfully')
     when '2'
       colorize_output(36, 'Enter Teacher details')
       colorize_outprint(35, 'Name: ')
@@ -73,7 +74,7 @@ class App
       colorize_outprint(35, 'Specialization: ')
       specialization = gets.chomp
       @people.push(Teacher.new(age: age, name: name, specialization: specialization))
-      colorize_output(36, 'Person Teacher Created successfully')
+      colorize_output(34, 'Person Teacher Created successfully')
     end
     display_list
     continue
@@ -96,7 +97,7 @@ class App
 
   def list_all_books_with_numbers
     if @books.empty?
-      colorize_output(31, 'Please insert books first!')
+      colorize_output(34, 'Please insert books first!')
       display_list
       continue
     else
@@ -108,7 +109,7 @@ class App
 
   def list_all_person_with_numbers
     if @people.empty?
-      colorize_output(31, 'Please insert people first!!')
+      colorize_output(34, 'Please insert people first!!')
       display_list
       continue
     else
@@ -164,7 +165,7 @@ class App
     when '5' then create_rental
     when '6' then list_rentals_of_person_id
     when '7'
-      colorize_output(32, 'Thank you for using this application')
+      colorize_output(34, 'Thank you for using this application')
       exit
     end
   end
