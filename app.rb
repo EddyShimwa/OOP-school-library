@@ -7,6 +7,7 @@ class App
   def initialize
     @books = []
     @people = []
+    @rentals = []
   end
 
   def colorize_output(color_code, statements)
@@ -138,18 +139,14 @@ class App
   end
 
   def list_rentals_of_person_id()
-    colorize_outprint(36, 'Id of person: ')
-    id = gets.chomp.to_i
-    person_arr = @people.select { |person| person.id == id }
+      print 'Person ID: '
+      id = gets.chomp.to_i
 
-    if person_arr.empty?
-      colorize_output(31, 'No person matches the given ID!!')
-    else
-      colorize_output(36, 'Rentals:')
-      person_arr[0].rentals.each do |rental|
-        puts "Date: #{rental.date}, Book: #{rental.book.title} by #{rental.book.author}"
+      rentals = @rentals.filter { |rental| rental.person.id == id }
+      puts 'List of Rentals:'
+      rentals.each do |rental|
+        puts "Date: #{rental.date}, Book '#{rental.book.title}' by #{rental.book.author}"
       end
-    end
     display_list
     continue
   end
