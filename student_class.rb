@@ -1,4 +1,3 @@
-require 'pry'
 require_relative 'person_class'
 
 class Student < Person
@@ -18,5 +17,4 @@ class Student < Person
     @classroom = classroom
     classroom.students.push(self) unless classroom.students.include?(self)
   end
-  binding.pry
 end

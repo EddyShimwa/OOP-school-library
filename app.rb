@@ -89,7 +89,7 @@ class App
     colorize_outprint(35, 'Author: ')
     author = gets.chomp
 
-    @books.push(Book.new(title, author))
+    @books.push(Book.new())
 
     colorize_output(36, 'You have successfully created your book')
     display_list
