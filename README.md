@@ -106,7 +106,7 @@ To download the dev dependency you have to type this command:
 
 - GitHub: [EddyShimwa](https://github.com/EddyShimwa)
 - Twitter: [Eddy](https://twitter.com/eddy56388406)
-- LinkedIn: [Pray Eddy SHIMWA](https://www.linkedin.com/in/pray-eddy-shimwa/)
+- LinkedIn: [Pray Eddy SHIMWA](https://www.linkedin.com/in/eddy-pray-shimwa/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
